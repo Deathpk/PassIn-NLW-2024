@@ -6,6 +6,8 @@ builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+//Configurando a url dos endpoiints para lower case.
+builder.Services.AddRouting(options => options.LowercaseUrls = true);
 
 // Adicionando nosso filtro de exceção.
 builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)));

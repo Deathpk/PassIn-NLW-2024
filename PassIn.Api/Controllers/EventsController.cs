@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using PassIn.Application.UseCases.Events.GetById;
+using PassIn.Application.UseCases.Events.ListAll;
 using PassIn.Application.UseCases.Events.Register;
-using PassIn.Application.UseCases.Events.RegisterAttendee;
 using PassIn.Communication.Requests;
 using PassIn.Communication.Responses;
 
@@ -22,6 +22,14 @@ public class EventsController: ControllerBase
     }
 
     [HttpGet]
+    public IActionResult ListAllEvents()
+    {
+        var useCase = new ListAllEventsUseCase();
+        var response = useCase.Execute();
+        return Ok(response);
+    }
+    
+    [HttpGet]
     [Route("{id}")]
     [ProducesResponseType(typeof(ResponseEventJson), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status404NotFound)]
@@ -30,19 +38,5 @@ public class EventsController: ControllerBase
         var useCase = new GetEventByIdUseCase();
         var response = useCase.Execute(id);
         return Ok(response);
-    }
-
-    [HttpPost]
-    [Route("{id}/register")]
-    [ProducesResponseType(typeof(ResponseRegisteredJson), StatusCodes.Status200OK)]
-    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status400BadRequest)]
-    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status404NotFound)]
-    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status409Conflict)]
-    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status406NotAcceptable)]
-    public IActionResult Register([FromRoute] Guid id, [FromBody] RequestRegisterEventJson request)
-    {
-        var useCase = new RegisterAttendeeOnEventUseCase(id, request);
-        var response = useCase.Execute();
-        return Created(string.Empty, response);
     }
 }

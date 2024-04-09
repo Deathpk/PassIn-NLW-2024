@@ -341,6 +341,9 @@
         }
       },
       "PassIn.Communication/1.0.0": {
+        "dependencies": {
+          "PassIn.Infrastructure": "1.0.0"
+        },
         "runtime": {
           "PassIn.Communication.dll": {}
         }

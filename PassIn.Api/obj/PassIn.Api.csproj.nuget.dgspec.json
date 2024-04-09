@@ -160,7 +160,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/versianidev/Cursos/PassIn/PassIn.Infrastructure/PassIn.Infrastructure.csproj": {
+                "projectPath": "/home/versianidev/Cursos/PassIn/PassIn.Infrastructure/PassIn.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

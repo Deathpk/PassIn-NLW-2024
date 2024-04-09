@@ -17,3 +17,4 @@
 /home/versianidev/Cursos/PassIn/PassIn.Application/obj/Debug/net8.0/refint/PassIn.Application.dll
 /home/versianidev/Cursos/PassIn/PassIn.Application/obj/Debug/net8.0/PassIn.Application.pdb
 /home/versianidev/Cursos/PassIn/PassIn.Application/obj/Debug/net8.0/ref/PassIn.Application.dll
+/home/versianidev/Cursos/PassIn/PassIn.Application/obj/Debug/net8.0/PassIn.Application.sourcelink.json

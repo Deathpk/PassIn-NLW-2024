@@ -9,3 +9,8 @@
 /home/versianidev/Cursos/PassIn/PassIn.Communication/obj/Debug/net8.0/refint/PassIn.Communication.dll
 /home/versianidev/Cursos/PassIn/PassIn.Communication/obj/Debug/net8.0/PassIn.Communication.pdb
 /home/versianidev/Cursos/PassIn/PassIn.Communication/obj/Debug/net8.0/ref/PassIn.Communication.dll
+/home/versianidev/Cursos/PassIn/PassIn.Communication/bin/Debug/net8.0/PassIn.Infrastructure.dll
+/home/versianidev/Cursos/PassIn/PassIn.Communication/bin/Debug/net8.0/PassIn.Infrastructure.pdb
+/home/versianidev/Cursos/PassIn/PassIn.Communication/obj/Debug/net8.0/PassIn.Communication.csproj.AssemblyReference.cache
+/home/versianidev/Cursos/PassIn/PassIn.Communication/obj/Debug/net8.0/PassIn.Communication.sourcelink.json
+/home/versianidev/Cursos/PassIn/PassIn.Communication/obj/Debug/net8.0/PassIn.Communication.csproj.CopyComplete

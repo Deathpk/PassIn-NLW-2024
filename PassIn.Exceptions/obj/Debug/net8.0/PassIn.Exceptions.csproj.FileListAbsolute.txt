@@ -9,3 +9,4 @@
 /home/versianidev/Cursos/PassIn/PassIn.Exceptions/obj/Debug/net8.0/refint/PassIn.Exceptions.dll
 /home/versianidev/Cursos/PassIn/PassIn.Exceptions/obj/Debug/net8.0/PassIn.Exceptions.pdb
 /home/versianidev/Cursos/PassIn/PassIn.Exceptions/obj/Debug/net8.0/ref/PassIn.Exceptions.dll
+/home/versianidev/Cursos/PassIn/PassIn.Exceptions/obj/Debug/net8.0/PassIn.Exceptions.sourcelink.json

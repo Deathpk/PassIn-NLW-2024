@@ -16,8 +16,4 @@
     <ProjectReference Include="..\PassIn.Exceptions\PassIn.Exceptions.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Remove="Controllers\AttendeesController.cs" />
-  </ItemGroup>
-
 </Project>

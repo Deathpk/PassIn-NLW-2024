@@ -10,3 +10,4 @@
 /home/versianidev/Cursos/PassIn/PassIn.Infrastructure/obj/Debug/net8.0/PassIn.Infrastructure.pdb
 /home/versianidev/Cursos/PassIn/PassIn.Infrastructure/obj/Debug/net8.0/ref/PassIn.Infrastructure.dll
 /home/versianidev/Cursos/PassIn/PassIn.Infrastructure/obj/Debug/net8.0/PassIn.Infrastructure.csproj.AssemblyReference.cache
+/home/versianidev/Cursos/PassIn/PassIn.Infrastructure/obj/Debug/net8.0/PassIn.Infrastructure.sourcelink.json
